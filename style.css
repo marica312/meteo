@@ -1,0 +1,84 @@
+body{background-image: url('default.jpg');
+    background-size: cover;
+    height: 100vh;
+     background-repeat:no-repeat ;
+      text-shadow: 2px 2px 1px black;
+      color: white;
+     font-family:'Taviraj', serif ;}
+
+
+     .title{text-align: center;
+    margin: auto;
+padding: 10px;
+margin-top: 30px;}
+
+
+#weatherContainer{background-color: rgb(0, 0,0,0.25 ) ;
+padding: 50px;;
+border-radius: 10px;
+box-shadow: 1px 1px 5px black; 
+position:absolute;
+visibility: hidden;
+margin-top: 10px;
+background-size: cover;
+}
+
+#weatherContainer h1{margin:5x;
+font-size: 40px;}
+
+#searchContainer{padding: 15px;
+position: absolute;
+top:0;
+right:0 ;}
+
+#searchContainer input{width: 200px;}
+#searchContainer button{width: 75px;
+background-color: skyblue ;}
+
+.searchControl{box-shadow: 1px 1px 5px black;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+#weatherMain{display: block;
+margin-bottom: 20px;
+}
+#weatherMain div {display: inline-block;
+}
+#weatherDescriptionHeader{vertical-align: 30%;
+font-size: 28px;}
+#temperature{font-size: 40px;
+vertical-align: 20%;}
+
+.bottomDetails{display: block;
+font-size: 25px;
+text-align: center;}
+
+hr{margin-bottom: 20px;}
+
+i{ font-size: 40px;
+    margin-right: 10px}
+    
+    .cerchio{border-radius: 50%}
+    
+     
+    
+     .social{position: absolute;
+     bottom:0;
+     right: 0;
+     }
+     
+     i{ font-size: 40px;
+        margin-right: 10px;
+       color: skyblue;}
+        
+        .cerchio{border-radius: 50%}
+        
+         
+        
+         .social{position: absolute;
+         bottom:0;
+         right: 0;
+         }
+        
